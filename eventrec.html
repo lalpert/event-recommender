@@ -1,5 +1,6 @@
 <html>
 <head>
+    <script src="eventrec.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="jQuery-scripts.js"></script>
 </head>
@@ -16,12 +17,12 @@
             <h3>Add User</h3>
             <form id="add-user">
 
-                <label>User ID:</label>
-                <input type="text" name="user-id">
-                <br/>
-                <label>User name:</label>
-                <input type="text" name="user-name">
-                <br/>
+                    <label>User ID:</label>
+                    <input type="text" name="user-id" id="add-user-user-id">
+                    <br/>
+                    <label>User name:</label>
+                    <input type="text" name="user-name" id="add-user-user-name">
+                    <br/>
                 <!-- Add other form fields here -->
 
                 <input type="submit">
@@ -32,8 +33,8 @@
             <h3>Delete User</h3>
             <form id="delete-user">
 
-                <label>User ID:</label>
-                <input type="text" name="user-id">
+                <label>User name:</label>
+                <input type="text" name="user-name" id="delete-user-user-name">
                 <br/>
 
                 <input type="submit">

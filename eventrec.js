@@ -67,6 +67,7 @@ class User {
     }
 }
 
+
 /*
 event1 = new Event("Techtonica Party", new Date("12/25/2019"), "party");
 event2 = new Event("Halloween party", new Date("10/31/2019"), "party");
@@ -82,15 +83,9 @@ er.addUser(user1);
 
 console.log(er.findEventsByDate(new Date("12/25/2019")))
 */
-/*
-module.exports = {
-    'EventRecommender': EventRecommender,
-    'User': User,
-    'Event': Event
+
+
+if(typeof module != 'undefined'){
+    module.exports = { EventRecommender, User,  Event}
 }
 
-if(typeof exports == 'undefined'){
-    var exports = this['mymodule'] = {};
-}
-*/
-module.exports = { EventRecommender, User,  Event}

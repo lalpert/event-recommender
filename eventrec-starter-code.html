@@ -1,6 +1,7 @@
 <html>
 <head>
-    <script src="eventrec.js"></script>
+    <script src="YOUR JS FILE HERE.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="jQuery-scripts.js"></script>
 </head>
 
@@ -9,7 +10,7 @@
     <h2>User Management</h2>
         <div>
             <h3>All Users</h3>
-                <ul>
+                <ul id="all-users">
                     <!-- Use jQuery to display all Users here -->
                 </ul>
 
@@ -17,10 +18,10 @@
             <form id="add-user">
 
                 <label>User ID:</label>
-                <input type="text" name="user-id">
+                <input type="text" name="user-id" id="add-user-user-id">
                 <br/>
                 <label>User name:</label>
-                <input type="text" name="user-name">
+                <input type="text" name="user-name" id="add-user-user-name">
                 <br/>
                 <!-- Add other form fields here -->
 
